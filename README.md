@@ -7,3 +7,6 @@ This is a project that utilizes Microsoft PowerBI to analyze personal financial 
 - loaded multiple Excel files from multiple folders
 - extracted data from each file
 - cleaned data
+  - basic editing
+  - standardized categories
+  - removed unneeded null entries
