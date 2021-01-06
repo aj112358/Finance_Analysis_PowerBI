@@ -10,3 +10,12 @@ This is a project that utilizes Microsoft PowerBI to analyze personal financial 
   - basic editing
   - standardized categories
   - removed unneeded null entries
+
+
+### Jan 5, 2020
+- had to fix date issues in original data
+- started making visuals
+- made list for EDA
+- created date, location, item tables
+
+
