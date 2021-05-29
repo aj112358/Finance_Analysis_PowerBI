@@ -1,4 +1,5 @@
 # Personal Finance PowerBI Dashboard
+
 A project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
 
 
@@ -30,9 +31,9 @@ Here are the questions I would like the PowerBI dashboards to answer:
 - Python (v3.8)
 - Python Libraries: openpyxl, os
 - Windows 10 Machine
-- Microsoft PowerBI Desktop (v2.93#)
+- Microsoft PowerBI Desktop (v2.93)
 - Microsoft Excel
-- Apple iPad (7th Gen)
+- Apple iPad (7th Gen) and pencil
 
 
 ## Overview of Microsoft Power BI
@@ -42,7 +43,19 @@ Here are the questions I would like the PowerBI dashboards to answer:
 
 Here is a brief description of each file/folder found in this GitHub repository.
 
+### Finance_Data/20xx
 
+This is the folder that contains each month's Excel data in a separate Excel workbook. The dates (currently) range from Aug 2018 - Dec 2020.
+
+### change_excel_sheets.py
+
+This Python script takes in an Excel file with multiple sheets and renames all sheets to 'Sheet1'. (*Apparantly this was necessary for importing the Excel data into PowerBI?*)
+
+### Finance_Data.xlsx
+
+This is a copy of the original Excel file that I was using to keep track of my spending.
+
+### Personal_Finance_Dashboard.pbix
 
 ## Data Collection Methodology
 
