@@ -25,9 +25,7 @@ Here are the questions I would like the PowerBI dashboards to answer:
 - Spending behavior when I'm sick.
 - Comparison of weekday and weekend spending.
 
-In order to answer these questions, I invested time in planning the PowerBI measures I would need to create and also planned a rough outline of the dashboard visuals I wanted. Here are some screenshots of my dashboard planning:
-
-![alt text][DashPlan]
+In order to answer these questions, I invested time in planning the PowerBI measures I would need to create and also planned a rough outline of the dashboard visuals I wanted. 
 
 
 ## Data Analysis Summary
@@ -51,7 +49,9 @@ Here are the dashboards that I created. If you would like to actually play aroun
 
 ## Overview of Microsoft Power BI
 
-asdf
+Microsoft Power BI is a data analytics tool used to provide business intelligence capabilities, including loading, modelling, and visualizing data sets. Its initial release was over 10 years ago in July 2011, and since then the Microsoft team has continued to add greater functionality and improve ease-of-use on a monthly basis. 
+
+The program itself can be used both on a local machine (via Power BI "Desktop") and also on the cloud (via Power BI "Services"). It can be used in a similar fashion as how one may use Excel, but also provides the greater ability to more easily create interactive visualizations called 'dashboards'. 
 
 
 ## Explanation of Project Files
@@ -111,12 +111,25 @@ The main visuals I used were 'slicers'. I created calendar slicers for overall d
 Using PowerBI I was able to visualize my purchases data in an interactive way. This allowed me to drill deeper into my spending behaviour and with this information I can now be more conscientious of what I choose to spend my money on.
 
 
-## How You Can View The Power BI Dashboard
+## How You Can View My Power BI Dashboards
 
-For those interested in actually playing around with the dashboard, here are the steps to do so:
+For those interested in actually playing around with the dashboard, here are some detailed steps to help you do so:
 1. Download PowerBI
-2. asdf
+Go to this site: https://powerbi.microsoft.com/en-us/desktop/ and click the "Download Free" button in the center of the screen *(this may change in the future!)*. There may be a prompt that asks you to download from the Microsoft Store instead, in which case simply click the button that opens the Microsoft Store and install the application from there.
+
+*Note: You **DO NOT** have to sign-in to use this 'Desktop' version, although if you choose to then you'll need to use a work/school email adddress.*
+
+2. Configure Some Settings
+Open Power BI Desktop and simply close the large dialog window that starts. Then, go: File -> Options and settings -> Options. On the left side you'll see two general categories of options: GLOBAL and CURRENT FILE.
+
+Under the GLOBAL options, go to 'Preview features' and de-select all options.
+
+Under the CURRENT FILE options, go to 'Data load' and de-select the two options: (i) Update or delete relationships when refreshing data, and (ii) Autodetect new relationships after data is loaded.
+
+Finally, again under the CURRENT FILE options, go to 'Regional Settings' and make the appropriate selection for your region.
+
 3. asdf
+
 4. asdf
 
 
@@ -127,6 +140,7 @@ For future improvement, we can consider the following ideas:
 - Perhaps there is a way to generalize this dashboard so anyone can use it? (Launch via Docker container?)
   - Would need to ask users to standardize their Excel sheets a certain way?
 - Think of new informative metrics that may be useful.
+- Create new or modify existing dashboards for ease-of-use on mobile/tablet devices. (Can be done in Power BI Desktop)
 
 
 ## Author
