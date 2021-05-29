@@ -24,8 +24,9 @@ Here are the questions I would like the PowerBI dashboards to answer:
 
 In order to answer these questions, I invested time in planning the PowerBI measures I would need to create and also planned a rough outline of the dashboard visuals I wanted. Here are some screenshots of my dashboard planning:
 
-insert pics here
+![alt text][ExecSumm]
 
+![alt text][Granular]
 
 ## Data Analysis Summary
 
@@ -132,3 +133,11 @@ For future improvement, we can consider the following ideas:
 - Creators of Microsoft PowerBI - It's a pretty amazing tool!
 - All the kind and patient cashiers who took the time to print out a receipt for me.
 - Viewers of my GitHub page...Thanks for visiting!
+
+
+<!-- Image References -->
+
+[ExecSumm]: images/executive_summary.png "Main summary of data"
+[Granular]: images/granular_info.png "Second dashboard for detailed inormation"
+[DashPlan]: images/dashboard_planning.jpg "My original layout for the dashboards"
+[Questions]: images/investigative_questions.jpg "The original questions I wanted answers to"
