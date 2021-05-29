@@ -101,6 +101,8 @@ The main visuals I used were 'slicers'. I created calendar slicers for overall d
 
 ## Conclusion
 
+Using PowerBI I was able to visualize my purchases data in an interactive way. This allowed me to drill deeper into my spending behaviour and with this information I can now be more conscientious of what I choose to spend my money on.
+
 
 ## How You Can View The Power BI Dashboard
 
@@ -114,24 +116,19 @@ For those interested in actually playing around with the dashboard, here are the
 ## Future Steps
 
 For future improvement, we can consider the following ideas:
-- asdf
-- asdf
-- asdf
+- Attempt to create more visually appealing dashboards (perhaps you can find a template to use?).
+- Perhaps there is a way to generalize this dashboard so anyone can use it? (Launch via Docker container?)
+  - Would need to ask users to standardize their Excel sheets a certain way?
+- Think of new informative metrics that may be useful.
 
 
 ## Author
 
-AJ Singh (https://github.com/aj112358/)
+- **AJ Singh** (https://github.com/aj112358/)
 
 
 ## Acknowledgements
 
-
-
-### Jan 5, 2020
-- had to fix date issues in original data
-- started making visuals
-- made list for EDA
-- created date, location, item tables
-
-
+- Creators of Microsoft PowerBI - It's a pretty amazing tool!
+- All the kind and patient cashiers who took the time to print out a receipt for me.
+- Viewers of my GitHub page...Thanks for visiting!
