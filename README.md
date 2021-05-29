@@ -1,20 +1,25 @@
 # Personal Finance PowerBI Dashboard
-This is a project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
+A project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
 
 
 ## Problem Description
 
-As one should, I have been keeping track of all my daily spending using Microsoft Excel. Using basic sorting/filtering I was able to see where the majority of my spending was, but this was a very high-level overview of my spending. Having recently learned about PowerBI, I decided to turn my static Excel data into dynamic PowerBI dashboard.
+As one should, I have been keeping track of all my daily spending using Microsoft Excel. Using basic sorting/filtering in Excel I'm able to see a very high-level overview of my spending. In order to perform data analysis at a more deeper level, we will turn my static Excel data into dynamic PowerBI dashboards.
 
 
 ## Project Goals
 
-Here are the questions I wanted answers to using a PowerBI dashboard:
-1. asdf
-2. asdf
-3. asdf
-4. asdf
-5. asdf
+Here are the questions I would like the PowerBI dashboards to answer:
+- Monthly spending (in a given year).
+- How much money spent per item category.
+- List all expenses with comments.
+- How much money spent per location.
+- The number of purchases in various price ranges.
+- Quarterly and weekly spending information.
+- Various average costs (per week, month, day).
+- Comparison of food costs to restaurant costs.
+- Spending behavior when I'm sick.
+- Comparison of weekday and weekend spending.
 
 
 ## Data Analysis Summary
@@ -22,11 +27,12 @@ Here are the questions I wanted answers to using a PowerBI dashboard:
 
 ## Hardware and Software Used
 
-- Python 3.8
-- Windows 10
-- Microsoft PowerBI (v.###)
-- Microsoft Excel (v.###)
-- iPad
+- Python (v3.8)
+- Python Libraries: openpyxl, os
+- Windows 10 Machine
+- Microsoft PowerBI Desktop (v2.93#)
+- Microsoft Excel
+- Apple iPad (7th Gen)
 
 
 ## Overview of Microsoft Power BI
