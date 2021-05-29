@@ -1,4 +1,4 @@
-# Finance_Analysis_PowerBI
+# Personal Finance PowerBI Dashboard
 This is a project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
 
 
