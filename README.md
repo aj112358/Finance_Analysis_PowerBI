@@ -2,6 +2,9 @@
 
 A project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
 
+> _"some awesome quote"_
+> _- some dude_
+
 
 ## Problem Description
 
@@ -24,13 +27,16 @@ Here are the questions I would like the PowerBI dashboards to answer:
 
 In order to answer these questions, I invested time in planning the PowerBI measures I would need to create and also planned a rough outline of the dashboard visuals I wanted. Here are some screenshots of my dashboard planning:
 
-![alt text][ExecSumm]
+![alt text][DashPlan]
 
-![alt text][Granular]
 
 ## Data Analysis Summary
 
-I spend way too much money.
+Here are the dashboards that I created. If you would like to actually play around with these dashboards see the end of this readme for instructions:
+
+![alt text][ExecSumm]
+
+![alt text][Granular]
 
 
 ## Hardware and Software Used
