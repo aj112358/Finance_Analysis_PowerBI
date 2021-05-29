@@ -2,8 +2,8 @@
 
 A project that utilizes Microsoft PowerBI to analyze personal financial data and visualize expenses through an interactive dashboard.
 
-> _"some awesome quote"_
-> _- some dude_
+> _"Data analysis is not just about presenting data, but to build a story and create a meaningful narrative from the raw data. At the end of the day, that's what analytics is all about - not about writing code, not about crunching numbers, not about memorizing formula syntax - it's about deriving meaning and context from the data and, more importantly, using it to make real change."_
+> _- Chris Dutton, Maven Analytics_
 
 
 ## Problem Description
@@ -58,7 +58,7 @@ The program itself can be used both on a local machine (via Power BI "Desktop") 
 
 Here is a brief description of each file/folder found in this GitHub repository.
 
-### Finance_Data/20xx
+### **Finance_Data/20xx**
 This is the folder that contains each month's Excel data in a separate Excel workbook. The dates (currently) range from Aug 2018 - Dec 2020.
 
 ### change_excel_sheets.py
@@ -68,7 +68,7 @@ This Python script takes in an Excel file with multiple sheets and renames all s
 This is a copy of the original Excel file that I was using to keep track of my spending.
 
 ### Personal_Finance_Dashboard.pbix
-This is the main PowerBI file containing the finance dashboards.
+This is the main Power BI file containing the finance dashboards.
 
 
 ## Data Collection Methodology
@@ -84,7 +84,7 @@ There was quite a bit of data cleaning to do. I had to do some basic editing of 
 
 There was a lot of work needed to be done with dates. Some dates were of a 'Text' type, some were a 'General' type, and still others were the 'Date' type. These had to be standardized.
 
-There were only a few rows that contained null entries, so I simply chose to remove these rows from the overall dataset; This would now drastically affect the variance of the overall data.
+Finally, only a few rows contained null entries, so I simply chose to remove these rows from the overall dataset; This would not drastically affect the variance of the overall data.
 
 
 ## Measure Creation & Visualizations
@@ -133,7 +133,7 @@ Finally, again under the CURRENT FILE options, go to 'Regional Settings' and mak
 
 **3. Download My Project Files**
 
-Now that everything is set up, you simply have to download all my project files, open the Power BI file (the one with .pbix extension) and have fun!
+Now that everything is set up, you simply have to download all my project files as they are into a folder on your machine, open the Power BI file (the one with .pbix extension) and have fun!
 
 
 ## Future Steps
